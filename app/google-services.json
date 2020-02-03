@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "752343608678",
+    "firebase_url": "https://hithatawadinawadan.firebaseio.com",
+    "project_id": "hithatawadinawadan",
+    "storage_bucket": "hithatawadinawadan.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:752343608678:android:0e75356bfe91a985",
+        "android_client_info": {
+          "package_name": "com.universl.hp.hithatawadinawadan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "752343608678-na388sjt9dae4i8ii1b7u0ggc0b8ki7v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.universl.hp.hithatawadinawadan",
+            "certificate_hash": "b7ad86d7d45cc3ff74ef2b4efcf66ef08e534096"
+          }
+        },
+        {
+          "client_id": "752343608678-svid114qrna98q13039nljomfl1a3uqk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAj26EQYgwNn6JpoTsHM84iCzqgW3lNvno"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "752343608678-svid114qrna98q13039nljomfl1a3uqk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

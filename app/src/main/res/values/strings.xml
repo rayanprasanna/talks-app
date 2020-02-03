@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">හිතට වදින වදන්</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_other">Other</string>
+    <string name="title_romantic">Romantic</string>
+    <string name="title_success">Success</string>
+    <string name="title_fans">Fans</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="likes">Likes</string>
+    <string name="sign_in">Please Sign In Google Account</string>
+    <string name="facebook_app_id">949745398567730</string>
+    <string name="facebook_login_protocol_scheme">fb949745398567730</string>
+    <string name="banner_ad_id">ca-app-pub-1606200483291446/9852833358</string>
+    <string name="inst_ad_id">NOT_SETUP</string>
+    <string name="ads_app_id">ca-app-pub-1606200483291446~6105160030</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="sms_dis_msg">Do you like to receive daily motivational tips on you mobile via SMS?</string>
+    <string name="internal_storage">Internal storage</string>
+    <string name="chooser_title">Choose Files</string>
+    <string name="string_some_thing_wrong">Something went wrong.</string>
+    <string name="string_internet_connection_not_available">Internet Connection Not Available</string>
+</resources>

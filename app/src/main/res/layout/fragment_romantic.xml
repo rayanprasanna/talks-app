@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_2"
+    tools:context=".fragment.RomanticFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/search_bar"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal"
+        tools:ignore="ScrollViewSize">
+        <SearchView
+            android:layout_marginHorizontal="3dp"
+            android:layout_marginVertical="5dp"
+            android:layout_width="match_parent"
+            android:background="#ffffff"
+            android:layout_height="45dp"
+            android:inputType="text"
+            android:queryHint="Quotes title"
+            android:iconifiedByDefault="false"
+            android:id="@+id/search_title"
+            tools:ignore="LabelFor,RtlHardcoded,UnusedAttribute">
+            <requestFocus />
+        </SearchView>
+    </LinearLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/search_bar"
+        android:id="@+id/quotes_list">
+    </ListView>
+
+</RelativeLayout>

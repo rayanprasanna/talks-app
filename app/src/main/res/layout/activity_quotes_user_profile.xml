@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:background="@drawable/back_2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main.HomeActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/search_bar"
+        android:background="@color/colorPrimary">
+    </android.support.v7.widget.Toolbar>
+    <FrameLayout
+        android:id="@+id/frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:animateLayoutChanges="true"
+        android:layout_below="@+id/search_bar"
+        tools:ignore="UselessParent">
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="10"
+            android:background="@drawable/back_2">
+            <!--<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/search_bar"
+                android:background="@color/colorPrimary"
+                android:orientation="horizontal"
+                tools:ignore="ScrollViewSize">
+                <SearchView
+                    android:layout_marginHorizontal="3dp"
+                    android:layout_marginVertical="5dp"
+                    android:layout_width="match_parent"
+                    android:background="#ffffff"
+                    android:layout_height="45dp"
+                    android:inputType="text"
+                    android:queryHint="Quotes title"
+                    android:iconifiedByDefault="false"
+                    android:id="@+id/search_title"
+                    tools:ignore="LabelFor,RtlHardcoded,UnusedAttribute">
+                    <requestFocus />
+                </SearchView>
+            </LinearLayout>-->
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/quotes_list"
+                android:layout_weight="10">
+            </ListView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/colorPrimary"
+                android:layout_weight="0">
+
+                <com.google.android.gms.ads.AdView
+                    android:id="@+id/adView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:adSize="BANNER"
+                    app:adUnitId="@string/banner_ad_id" />
+            </LinearLayout>
+        </LinearLayout>
+        <ru.dimorinny.floatingtextbutton.FloatingTextButton
+            android:id="@+id/user_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:floating_background_color="@color/colorAccent"
+            app:floating_left_icon="@drawable/ic_pro_user"
+            app:floating_title="User"
+            android:layout_gravity="bottom|start"
+            android:layout_margin="16dp"
+            app:floating_title_color="@android:color/black"/>
+        <ru.dimorinny.floatingtextbutton.FloatingTextButton
+            android:id="@+id/review_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:floating_background_color="@color/colorAccent"
+            app:floating_left_icon="@drawable/ic_pro_review_quotes_2"
+            app:floating_title="Review"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="16dp"
+            app:floating_title_color="@android:color/black"/>
+    </FrameLayout>
+</RelativeLayout>
